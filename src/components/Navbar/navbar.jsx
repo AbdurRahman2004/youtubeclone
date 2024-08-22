@@ -11,21 +11,28 @@ import profile_icon from "../../assets/jack.png";
 
 
 
-function Navbar(){
+function Navbar({setSidebar}){
     return(
         <nav className="flex-div">
             <div className="nav-left flex-div">
-                <img src={menu_icon} alt="" />
+                <img src={menu_icon} onClick={()=> setSidebar(prev => !prev)}alt="" />
                 <img src={logo} alt="" />
-                <input type="text" name="" id="" />
-                <img src={search_icon} alt="" />
+                
+            </div>
+
+            <div className="nav-middle flex-div">
+                <div className="search-box flex-div">
+                 <input type="text" name="" id="" placeholder="Search"/>
+                 <img src={search_icon} alt="" />
+                </div>
+
             </div>
 
             <div className="nav-right flex-div">
                 <img src={upload_icon} alt="" />
                 <img src={more_icon} alt="" />
                 <img src={notification_icon} alt="" />
-                <img src={profile_icon} alt="" />
+                <img src={profile_icon} alt="" className="user-icon"/>
 
             </div>
 
