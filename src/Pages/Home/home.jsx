@@ -6,8 +6,9 @@ const Home = ({sidebar}) => {
   return (
     <>
     <Sidebar sidebar={sidebar}/>
-    <div className={`container ${sidebar ? "" : "large-container"}`}></div>
+    <div className={`container ${sidebar ? "" : "large-container"}`}>
      <Feed /> 
+     </div>
     </>
   )
 }

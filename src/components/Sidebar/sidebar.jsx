@@ -50,19 +50,19 @@ const Sidebar = ({sidebar}) => {
                 <hr />
                 <div className="subscribed-list">
                     <h3>Subscribed</h3>
-                    <div className="side-link">
+                    <div className="side-links">
                         <img src={jack} alt="" /><p>PewDiePie</p>
                     </div>
-                    <div className="side-link">
+                    <div className="side-links">
                         <img src={simon} alt="" /><p>Mr Beast</p>
                     </div>
-                    <div className="side-link">
+                    <div className="side-links">
                         <img src={tom} alt="" /><p>Justin Beiber</p>
                     </div>
-                    <div className="side-link">
+                    <div className="side-links">
                         <img src={megan} alt="" /><p>5 mins-craft</p>
                     </div>
-                    <div className="side-link">
+                    <div className="side-links">
                         <img src={cameron} alt="" /><p>Nas Daily</p>
                     </div>
                 </div>

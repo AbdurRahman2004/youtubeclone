@@ -5,6 +5,7 @@ nav{
     position: sticky;
     top: 0;
     z-index: 10;
+    background: #ffff;
 }
 
 .nav-left .menu-icon{
@@ -20,6 +21,7 @@ nav{
     margin-right: 15px;
     padding: 8px 12px;
     border-radius: 25px;
+    
 }
 
 .nav-middle .search-box input{
