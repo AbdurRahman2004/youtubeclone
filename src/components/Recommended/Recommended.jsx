@@ -20,7 +20,7 @@ const Recommended = ({ categoryId }) => {
     }, [categoryId]);
 
     const handleVideoClick = () => {
-        fetchApiData(nextPage);  // Fetch new recommendations on video click
+        fetchApiData(nextPage);  
     };
 
     return (
@@ -30,7 +30,7 @@ const Recommended = ({ categoryId }) => {
                     to={`/video/${categoryId}/${item.id}`}
                     key={index}
                     className="side-video-list"
-                    onClick={handleVideoClick}  // Trigger data fetch on video click
+                    onClick={handleVideoClick}  
                 >
                     <img src={item.snippet.thumbnails.medium.url} alt="" />
                     <div className='vid-info'>

@@ -16,7 +16,7 @@ function Navbar({setSidebar}){
     return(
         <nav className="flex-div">
             <div className="nav-left flex-div">
-                <img src={menu_icon} onClick={()=> setSidebar(prev => !prev)}alt="" />
+                <img src={menu_icon} className="menu-icon"onClick={()=> setSidebar(prev => !prev)}alt="" />
                 <Link to="/"><img src={logo} alt="" /></Link>
                 
             </div>

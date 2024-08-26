@@ -136,3 +136,24 @@ flex-basis: 69%;
     color: #5a5a5a;
     
 }
+
+@media (max-width : 900px){
+    .play-vedio{
+        flex-basis: 100%;
+    }
+
+    .play-vedio iframe{
+        width: 100%;
+        height: 50vw;
+    }
+
+    .vid-description{
+        padding-left: 0;
+    }
+    .play-vedio .play-vedio-info span{
+        margin-left: 0;
+        margin-right: 15px;
+        margin-top: 15px;
+        
+    }
+}
